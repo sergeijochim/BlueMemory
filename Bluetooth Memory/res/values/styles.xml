@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 	<style name="BlueTheme">
+ 		<item name="android:buttonStyle">@style/Schaltflaeche</item>
+ 	</style>
+
+    <style name="SchaltflaechenText"
+           parent="android:Widget.TextView">
+		<item name="android:textSize">18sp</item>
+		<item name="android:textStyle">bold</item>
+	</style>
+	
+    <style name="Schaltflaeche" 
+           parent="android:Widget.Button">
+        <item name="android:layout_gravity">center_horizontal</item>        
+		<item name="android:textAppearance">@style/SchaltflaechenText</item>
+		<item name="android:textColor">#FFFFFF</item>
+		<item name="android:layout_width">400px</item>
+		<item name="android:layout_marginBottom">15px</item>
+    </style>
+</resources>

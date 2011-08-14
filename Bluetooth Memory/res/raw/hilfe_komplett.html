@@ -1,0 +1,93 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Bluememory Hilfe</title>
+<meta name="author" content="Timo Ebel, Sergei Jochim">
+
+<style type="text/css">
+body { background-color:#f8f7c9; font-weight:normal; font-family: verdana, arial, sans-serif; font-size:100.01%; }
+.h1 {
+  font-size: 110%;
+  font-weight: bold;
+  font-family: Georgia;
+  color: #7A652D;
+  line-height: 0.8em;
+  padding: 0.6em 0 0.2em 0%;
+  margin: 0;
+}
+.h2 {
+  font-size: 100%;
+  font-weight: bold;
+  font-family: Georgia;
+  color: #7A652D;
+  padding: 0.2em 0 0.2em 0%;
+  border-bottom: 1px dotted #aaa;
+}
+.h3 {
+  font-size: 90%;
+  font-weight: bold;
+  font-family: Georgia;
+  color: #7A652D;
+  padding: 0.2em 0 0.2em 0%;
+  border-bottom: 1px dotted #aaa;
+}
+
+.text {
+  font-size: small;
+  font-weight: normal;
+  font-family: font-family: verdana, arial, sans-serif;
+  color: #00000000;
+  padding: 0.2em 0 0.2em 3%;
+}
+.textbold {
+  font-size: small;
+  font-weight: bold;
+  font-family: font-family: verdana, arial, sans-serif;
+  color: #00000000;
+  padding: 0.2em 0 0.2em 3%;
+}
+
+.rosabox { background-color:#FFDDDD; padding:6px; margin:0px; }
+.rosa { background-color:#FFDDDD; }
+.gelbbox { background-color:#FFFF66; padding:6px; margin:0px; }
+.gelb { background-color:#FFFF66; }
+</style>
+
+</head>
+	<body text="#000000" bgcolor="#FFFFFF" link="#FF0000" alink="#FF0000" vlink="#FF0000">
+		<p class="h1">Bluetooth Memory</p>
+		<p class="h2">1. Was ist BlueMemory?</p>
+		<p class="text">
+			BlueMemory ist eine einfache Implementierung des bekannten Spiels "Memory", das sich mit mehreren Spielern über eine Bluetooth-Verbindung spielen lässt.
+			Das Spiel enstand im Rahmen des Praktikums "Android-Anwendungsentwicklung" an der Technischen Hochschule Mittelhessen im Wintersemester 2010 / 2011.
+		</p>
+		
+		<p class="h2">2. Das Spiel</p>
+		<p class="h3">2.1 Spiel erstellen</p>
+		<p class="text">
+			Um ein Spiel zu eröffnen, klicken Sie auf "Spiel erstellen". Im folgenden Bild können Sie die Größe des Spielfelds (Höhe x Breite), das Kartendeck und die
+			Schwierigkeitsstufe auswählen. Die Auswahl Schwierigkeitsstufe beeinflusst die Pause, die vom Spiel zwischen zwei Zügen erzwungen wird. Bitte beachten Sie,
+			dass die Pause auch von der Rechenleistung der am Spiel beteiligten Geräte und der Verbindungsqualität abhängig sein kann. Falls die Geräte der anderen
+			Spieler noch nicht mit Ihrem verbunden sind, muss die Bluetooth-Sichtbarkeit vorher über die Einstellungen Ihres Gerätes aktiviert werden.
+		</p>
+		<p class="text">Klicken Sie auf "Spiel erstellen", um zur "Lobby" zu wechseln.</p>
+		
+		<p class="h3">2.2 Spiel teilnehmen</p>
+		<p class="text">
+			Um an einem Spiel teilezunehmen, klicken Sie auf "Spiel teilnehmen". Der Bluetooth-Adapter wird dann aktiviert und es erscheint eine Liste der verfügbaren
+			Bluetooth-Geräte in Ihrer Umgebung. Geräte, mit denen Ihr eigenes Gerät bereits verbunden ist, werden sofort angezeigt, gleichzeitig wird nach
+			weiteren Geräten gesucht. Neu gefundene Geräte werden der Liste nach und nach hinzugefügt. Wählen Sie eines der Geräte, um einem Spiel beizutreten und zur
+			Lobby zu gelangen. Befindet sich auf dem gewählten Gerät kein BlueMemory-Server in Betrieb, wird die Lobby nach kurzer Zeit automatisch wieder verlassen.
+		</p>
+		
+		<p class="h3">2.3 Die Lobby</p>
+		<p class="text">
+			In der Lobby befinden sich alle Spieler, die an einem Spiel teilnehmen wollen. Es können maximal 6 Spieler an einem Spiel teilnehmen. Die Option zum Starten
+			des Spiels steht dabei nur dem Server zur Verfügung. Klicken Sie auf "Spiel starten", wenn Sie das Server-Gerät bedienen, um das Spiel zu beginnen. Nehmen Sie
+			an einem Spiel teil, warten Sie, bis der Server das Spiel startet.
+		</p>
+		
+		<p class="h2">Autoren und Copyright</p>
+		<p class="h3">Sergei Jochim, Timo Ebel, Gießen 2011, TH-Mittelhessen</p>
+	</body>
+</html>

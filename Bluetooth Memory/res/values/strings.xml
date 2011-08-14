@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+	<string name="app_name">BlueMemory</string>
+	<string name="toast_konfiguriere">BlueMemory wird konfiguriert. Bitte warten . . .</string>
+	<string name="spiel_erstellen">Spiel erstellen</string>
+	<string name="spiel_teilnehmen">An Spiel teilnehmen</string>
+	<string name="profil">Profil</string>
+	<string name="decks_verwalten">Decks verwalten</string>
+	<string name="anleitung">Anleitung</string>
+	<string name="feldgroesse_waehlen">Feldgröße:</string>
+	<string name="deck_waehlen">Deck:</string>
+	<string name="spielstufe">Schwierigkeitstufe:</string>
+	<string name="spiel_starten">Spiel starten</string>
+	<string name="auf_server_warten">Auf Server warten . . .</string>
+	<string name="beenden">Beenden</string>
+	
+	<!-- Deck-Verwaltung -->
+	<string name="deck_hinzufuegen">Deck hinzufügen</string>
+	<string name="deck_loeschen">Deck löschen</string>
+	<string name="toast_deck_loeschen">Deck wird gelöscht . . .</string>
+	<string name="toast_deck_geloescht">Das Deck wurde entfernt.</string>
+	<string name="toast_deckliste_laden">Die Liste der verfügbaren Decks wird aus dem Internet geladen . . .</string>
+	<string name="toast_deckliste_laden_fehler">Download der Deckliste fehlgeschlagen.</string>
+	<string name="toast_deck_laden">Das Deck wird heruntergeladen . . .</string>
+	<string name="toast_deck_laden_ok">Das Deck wurde installiert.</string>
+	<string name="toast_deck_laden_fehler">Download des Decks fehlgeschlagen.</string>
+
+	<!-- STATISTIK -->
+	<string name="statistik_loeschen">Statistik zurücksetzen</string>
+	<string name="spiele_gesamt">Spiele gesamt:</string>
+	<string name="spiele_gewonnen">Spiele gewonnen:</string>
+	<string name="spiele_verloren">Spiele verloren:</string>
+	<string name="anzahl_klicks">Insgesamt aufgedeckt:</string>
+	<string name="anzahl_richtiger_paare">Richtige Paare:</string>
+	<string name="spiele_unentschieden">Spiele unentschieden:</string>
+	<string name="name">Name:</string>
+	<string name="btn_save">Name speichern</string>
+
+	<!--  LOBBY -->
+	<string name="sichtbarkeit">Sichtbarkeit aktivieren</string>
+	<string name="neuenspielerhinzufuegen">Spieler hinzufügen</string>
+	<string name="spielername_belegt">Der gewählte Spielername existiert bereits.</string>
+	<string name="fehler_lobby">Fehler beim Empfangen der Lobby.</string>
+	<string name="fehler_spieleliste">Fehler beim Suchen nach Spielen.</string>
+	
+	<!--  SPIEL -->
+	<string name="fehler_spielfeld">Fehler beim Empfangen des Spielfelds.</string>
+	<string name="toast_deck_nicht_installiert">Das ausgewählte Deck ist nicht installiert!</string>
+	<string name="toast_dein_zug">Dein Zug!</string>
+	<string name="toast_warten_auf">Warten auf</string>
+	<string name="gewinner">Gewinner</string>
+
+	<!--  DeviceListActivity -->
+	<string name="scanning">scanning for devices...</string>
+	<string name="select_device">select a device to connect</string>
+	<string name="none_paired">No devices have been paired</string>
+	<string name="none_found">No devices found</string>
+	<string name="title_paired_devices">Paired Devices</string>
+	<string name="title_other_devices">Other Available Devices</string>
+	<string name="button_scan">Scan for devices</string>
+	
+	<!-- KommunikationBT -->
+	<string name="toast_bt_adapter_aktivieren">Bluetooth-Adapter wird aktiviert . . .</string>
+	<string name="toast_bt_adapter_deaktivieren">Bluetooth-Adapter wird deaktiviert . . .</string>
+	<string name="toast_verbindung_beendet">Die Verbindung wurde beendet.</string>
+</resources>

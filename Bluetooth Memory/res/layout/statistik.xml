@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:text="@string/anzahl_klicks"
+	/>
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="right"
+	android:minLines="2"
+	android:id="@+id/view_anzahl_klicks"
+	/>
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:text="@string/anzahl_richtiger_paare"
+	/>
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="right"
+	android:minLines="2"
+	android:id="@+id/view_anzahl_richtiger_paare"
+	/>
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:text="@string/spiele_gesamt"
+	/>
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="right"
+	android:minLines="2"
+	android:id="@+id/view_spiele_gesamt"
+	/>
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:text="@string/spiele_gewonnen"
+	/>
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="right"
+	android:minLines="2"
+	android:id="@+id/view_spiele_gewonnen"
+	/>
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:text="@string/spiele_unentschieden"
+	/>
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="right"
+	android:minLines="2"
+	android:id="@+id/view_spiele_unentschieden"
+	/>
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:text="@string/spiele_verloren"
+	/>
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="right"
+	android:minLines="2"
+	android:id="@+id/view_spiele_verloren"
+	/>
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:textStyle="bold"
+	android:text="@string/name"
+	/>
+<EditText
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:singleLine="true"
+	android:maxLength="20"
+	android:id="@+id/edit_spielername"
+	/>
+	
+<Button 
+	android:id="@+id/btn_save"
+	android:text="@string/btn_save"
+	android:onClick="onButtonSaveClick"
+	style="@style/Schaltflaeche"
+	android:background="@drawable/android_button"
+	android:layout_height="wrap_content" 
+/>
+</LinearLayout>

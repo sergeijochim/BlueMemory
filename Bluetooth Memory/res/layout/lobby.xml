@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/hintergrund">
+
+<ListView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:id="@android:id/list"
+/>
+
+<Button
+	style="@style/Schaltflaeche"
+	android:background="@drawable/android_button"
+	android:layout_height="wrap_content"
+	android:id="@+id/btn_spiel_starten"
+	android:text="@string/spiel_starten"
+	android:onClick="onClickSpielStarten"
+	android:enabled="false"
+	/>
+</LinearLayout>

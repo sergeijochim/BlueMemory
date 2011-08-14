@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/hintergrund">
+
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/feldgroesse_waehlen"
+	/>
+
+<Spinner
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/spin_feldgroesse"
+	/>
+
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/deck_waehlen"
+	/>
+
+<Spinner
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/spin_deck"
+	/>
+
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="@string/spielstufe"
+	/>
+
+<Spinner
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/spin_spielstufe"
+	/>
+
+<Button
+	style="@style/Schaltflaeche"
+	android:background="@drawable/android_button"
+	android:layout_height="wrap_content"
+	android:id="@+id/btn_spiel_erstellen"
+	android:text="@string/spiel_erstellen"
+	android:onClick="onClickSpielErstellen"
+/>
+</LinearLayout>

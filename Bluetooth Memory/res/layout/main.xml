@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/hintergrund_main"
+    >
+    
+    <LinearLayout 
+    	android:orientation="vertical"
+    	android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="center_vertical"
+		android:paddingTop="50px"
+		
+    >
+		<Button
+			android:layout_height="wrap_content" 
+			android:text="@string/spiel_erstellen"
+			android:id="@+id/btn_spiel_erstellen"
+			android:onClick="onButtonClick"
+			style="@style/Schaltflaeche"
+			android:background="@drawable/android_button"
+			/>
+		
+		<Button
+			android:layout_height="wrap_content" 
+			android:text="@string/spiel_teilnehmen"
+			android:id="@+id/btn_spiel_teilnehmen"
+			android:onClick="onButtonClick"
+			style="@style/Schaltflaeche"
+			android:background="@drawable/android_button"
+			/>
+		
+		<Button
+			android:layout_height="wrap_content" 
+			android:text="@string/profil"
+			android:id="@+id/btn_statistik"
+			android:onClick="onButtonClick"
+			style="@style/Schaltflaeche"
+			android:background="@drawable/android_button"
+			/>
+		
+		<Button
+			android:layout_height="wrap_content" 
+			android:text="@string/decks_verwalten"
+			android:id="@+id/btn_decks_verwalten"
+			android:onClick="onButtonClick"
+			style="@style/Schaltflaeche"
+			android:background="@drawable/android_button"
+			/>
+		
+		<Button
+			android:layout_height="wrap_content" 
+			android:text="@string/anleitung"
+			android:id="@+id/btn_anleitung"
+			android:onClick="onButtonClick"
+			style="@style/Schaltflaeche"
+			android:background="@drawable/android_button"
+			/>
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:gravity="center_horizontal"
+		>	
+		<ProgressBar
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/prb_erster_aufruf"
+			android:gravity="center_horizontal"
+			/>
+	</LinearLayout>
+</LinearLayout>
